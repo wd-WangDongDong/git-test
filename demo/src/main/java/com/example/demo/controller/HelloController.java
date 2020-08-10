@@ -9,4 +9,9 @@ public class HelloController {
     public void Hello(){
         System.out.println("hello git project");
     }
+
+    @RequestMapping(value = "/hello2")
+    public void Hello2(){
+        System.out.println("hello2");
+    }
 }
